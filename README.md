@@ -7,11 +7,11 @@ Highlight 2000+ manual test cases
 Present AI testing, payments, mobile, API, and security evidence  
 Share a recruiter-ready deployed portfolio
 
-Live: https://mruunalll.github.io/manual-qa-portfolio
+Live: https://mruunalll.github.io/Mrunal-Manual-QA-Portfolio
 
 ## Repository
 
-**Name:** `manual-qa-portfolio`
+**Name:** `Mrunal-Manual-QA-Portfolio`
 
 **Description:**
 
@@ -67,7 +67,7 @@ Push repo to GitHub, then enable Pages from the `main` branch root.
 git branch -M main
 git add .
 git commit -m "init: manual QA portfolio"
-git remote add origin https://github.com/Mruunalll/manual-qa-portfolio.git
+git remote add origin https://github.com/Mruunalll/Mrunal-Manual-QA-Portfolio.git
 git push -u origin main
 ```
 
