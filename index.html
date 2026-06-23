@@ -26,8 +26,10 @@
       <section class="hero">
         <div class="hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">QA Engineer | Manual & AI Testing | Web & Mobile | Agile</p>
-            <h1>Manual QA Engineer with 4.7 years of release-quality ownership across SaaS, AI products, and government platforms.</h1>
+            <!-- PATCH 9: added Agile Product Teams to tagline -->
+            <p class="eyebrow">QA Engineer | Manual & AI Testing | Web & Mobile | Agile Product Teams</p>
+            <!-- PATCH 1: 4.7 years → nearly 5 years -->
+            <h1>Manual QA Engineer with nearly 5 years of release-quality ownership across SaaS, AI products, and government platforms.</h1>
             <p class="hero-text">
               Hands-on across functional, regression, smoke, sanity, negative, integration, E2E, compatibility,
               mobile Android and iOS, localization, UAT, API validation, payments, security, and AI output testing.
@@ -42,7 +44,8 @@
             <p class="card-kicker">Resume snapshot</p>
             <div class="match-score">
               <span>Experience</span>
-              <strong>4.7 yrs</strong>
+              <!-- PATCH 2: 4.7 yrs → Nearly 5 yrs -->
+              <strong>Nearly 5 yrs</strong>
             </div>
             <ul class="check-list">
               <li>2000+ manual test cases across 10 SaaS and WordPress products</li>
@@ -116,6 +119,11 @@
             <span role="cell">Tools and platforms</span>
             <span role="cell">Jira, Postman, TestRail, Zephyr Scale, OpenForge, Browser DevTools, Git, GitHub, Figma, WordPress, Burp Suite, and Playwright (exposure).</span>
           </div>
+          <!-- PATCH 3: Agile & Collaboration row added -->
+          <div class="table-row" role="row">
+            <span role="cell">Agile and collaboration</span>
+            <span role="cell">Scrum, sprint planning and effort estimation, backlog refinement, sprint reviews, release readiness, defect triage, severity and priority coordination, shift-left testing, PM and stakeholder collaboration, and pushback on incomplete stories before execution.</span>
+          </div>
           <div class="table-row" role="row">
             <span role="cell">Agile and process</span>
             <span role="cell">Scrum, sprint planning, shift-left testing, defect lifecycle, RCA, severity and priority triage, release readiness, SDLC, and STLC.</span>
@@ -176,17 +184,29 @@
             <p>Astra · Starter Templates · Spectra · CartFlows · ZipWP · SureTriggers · SureForms · SureWriter · SureRank · SureMail</p>
             <ul class="check-list">
               <li>Served as primary and only dedicated QA for SureForms across 1.5 years — owned complete testing lifecycle including test planning, manual execution, defect tracking, release validation, and Agile QA support across every sprint and release cycle.</li>
+              <li>Stepped into an extended QA leadership role following the Product Manager's departure — facilitated Scrum ceremonies including sprint planning, sprint reviews, and retrospectives; managed Jira board setup for biweekly sprints; coordinated cross-functional team meetings and maintained release documentation across the full product team.</li>
               <li>Led QA validation for the Force UI revamp — SureForms' migration to a new internal UI component library. Covered component-level validation, visual regression across browsers and devices, responsive design verification, usability and accessibility checks, and full regression to ensure stability during the migration.</li>
               <li>Validated AI-enabled calculation and payment features within AI-generated forms — verified AI-generated form structures correctly supported payment flows, calculation logic, and field mapping accuracy end-to-end.</li>
               <li>Designed and executed 2000+ manual test cases across 10 products — functional, regression, smoke, sanity, negative, E2E, compatibility, cross-browser, mobile Android and iOS, and localization scenarios.</li>
               <li>Owned QA strategy and release sign-off for SureForms, ZipWP, and SureTriggers — 95%+ production stability and zero critical bugs on the SureForms 2025 launch.</li>
               <li>Cut defect escape rate 25–30% through structured test design, shift-left sprint planning, and systematic RCA on escapes.</li>
               <li>Tested Stripe and PayPal payment workflows end-to-end — transactions, success and failure scenarios, refunds, subscriptions, and webhook validation via Postman and DevTools.</li>
+              <!-- PATCH 5: UAT coordination bullet restored -->
+              <li>Supported UAT coordination — prepared builds, validated pre-stakeholder scenarios, reproduced defects, and ran regression before final sign-off.</li>
               <li>Performed end-to-end QA on Starter Templates AI-powered site generation — validated prompt-based website creation, template selection, auto-generated content, and full site creation across Core WordPress, Elementor, Beaver Builder, and Brizy.</li>
               <li>Conducted prompt injection testing on AI site generation — verified unexpected, malicious, and edge-case prompts did not break workflows, expose data, or generate unsafe content.</li>
+              <!-- PATCH 6: Starter Templates stabilization bullet restored -->
+              <li>Played a key role in stabilizing Starter Templates during a major product revamp (Dec 2023 – Mar 2024) — performed full QA from scratch covering UI, functionality, responsiveness, cross-builder compatibility, and UX validation before the March 2024 release.</li>
               <li>Performed dedicated AI testing on SureForms AI form generation — caught critical failures including hallucinated fields, wrong field type assignments, and payment value mismatches causing calculation errors despite correct formulas.</li>
               <li>Validated AI output consistency across repeated prompts, tested degradation and fallback behavior, and assessed downstream business logic impact across SureWriter, ZipWP AI, and SureTriggers.</li>
               <li>Used Claude and GitHub Copilot to cut test authoring time ~40% — saving approximately one day of QA effort per sprint. Exposure to Playwright automation — contributed to team UI test conversion using the Claude browser extension; familiar with POM structure, test fixture concepts, and automation scope planning.</li>
+              <!-- PATCH 7: Agile & Product Collaboration bullets added -->
+              <li>Actively participated in sprint planning — reviewed stories from a QA perspective, estimated testing effort, identified dependencies and risks, and ensured acceptance criteria were complete and testable before sprint pickup.</li>
+              <li>Contributed to sprint reviews and release discussions — validated completed stories against acceptance criteria, shared QA status and open defects, and confirmed release readiness with the team.</li>
+              <li>Raised blockers and testing progress updates in daily standups; collaborated with developers to resolve defects and maintain sprint momentum.</li>
+              <li>Worked directly with Product Managers and stakeholders during backlog refinement — clarified requirements, reviewed acceptance criteria, and ensured stories were testable and aligned with product goals.</li>
+              <li>Pushed back on stories with incomplete requirements or missing edge cases before execution — reducing rework and preventing defects from reaching later stages.</li>
+              <li>Coordinated bug triage with developers — discussed severity and priority, validated fixes, and led release readiness checks to ensure no critical issues reached production.</li>
               <li>Awards: Rising Star 2023 · Bug Detective of the Year — ZipWP 2024 · Zero-Defect Delivery — SureForms 2025.</li>
             </ul>
           </article>
@@ -229,14 +249,16 @@
             <ul>
               <li>Caught critical AI output failures — hallucinated fields, wrong field types, payment value mismatches causing calculation errors despite correct formulas.</li>
               <li>Validated prompt adherence, output consistency, adversarial prompt behavior, prompt injection, and downstream business logic impact.</li>
-              <li>Contributed to team automation using Claude browser extension to convert approximately 10% of UI test cases to automated checks.</li>
+              <!-- PATCH 10: ~10% → ~50% -->
+              <li>Contributed to team automation using Claude browser extension to convert approximately 50% of UI test cases to automated checks.</li>
             </ul>
           </article>
 
           <article class="project-card">
             <p class="project-type">Manual | Exploratory | RTM | Prompt Validation</p>
             <h3>AI Application QA Suite</h3>
-            <p>ChatGPT web and mobile QA with 32 test cases and 11 defects.</p>
+            <!-- PATCH 8: "11 defects" → "11 findings" -->
+            <p>ChatGPT web and mobile QA with 32 test cases and 11 findings.</p>
             <ul>
               <li>Covered prompt and response validation, hallucination risk, session handling, file upload behavior, and security observations.</li>
               <li>Prepared RTM and exploratory charters.</li>
@@ -363,9 +385,15 @@
           <span>WordPress</span>
           <span>Playwright (exposure)</span>
           <span>Scrum</span>
+          <!-- PATCH 4: Agile & Collaboration skills added to cloud -->
+          <span>Sprint Planning</span>
+          <span>Backlog Refinement</span>
+          <span>Sprint Reviews</span>
+          <span>Effort Estimation</span>
+          <span>Release Readiness</span>
+          <span>Defect Triage</span>
           <span>Shift-left Testing</span>
           <span>RCA</span>
-          <span>Release Readiness</span>
           <span>SDLC</span>
           <span>STLC</span>
         </div>
@@ -386,7 +414,7 @@
           <span aria-hidden="true">|</span>
           <a href="https://github.com/Mruunalll" target="_blank" rel="noreferrer">GitHub</a>
           <span aria-hidden="true">|</span>
-          <a href="https://mruunalll.github.io/qa-agent-os" target="_blank" rel="noreferrer">Portfolio</a>
+          <a href="https://mruunalll.github.io/Mrunal-QA-Portfolio" target="_blank" rel="noreferrer">Portfolio</a>
         </div>
       </section>
 
