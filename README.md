@@ -1,26 +1,24 @@
-# Manual QA Portfolio
+# Mrunal QA Portfolio
 
-> Resume-backed QA Engineer portfolio for Manual QA, AI testing, web and mobile testing, API validation, payments, security testing, and release ownership - Mrunal Patil
+> Resume-backed QA Engineer portfolio for Manual QA, AI testing, web and mobile testing, API validation, payments, security testing, Agile collaboration, and release ownership - Mrunal Patil
 
-Show 4.7 years of QA experience  
+Show nearly 5 years of QA experience  
 Highlight 2000+ manual test cases  
-Present AI testing, payments, mobile, API, and security evidence  
+Present AI testing, payments, mobile, API, security, and Agile evidence  
 Share a recruiter-ready deployed portfolio
 
-Live: https://mruunalll.github.io/Mrunal-Manual-QA-Portfolio
+Live: https://mruunalll.github.io/Mrunal-QA-Portfolio/
 
 ## Repository
 
-**Name:** `Mrunal-Manual-QA-Portfolio`
+**Name:** `Mrunal-QA-Portfolio`
 
 **Description:**
-
 ```text
-Resume-backed Manual QA Engineer portfolio - AI testing, SaaS testing, web and mobile QA, API validation, payment flows, security testing, Agile release ownership, and close to 5 years of quality engineering experience. Built by Mrunal Patil.
+Resume-backed QA Engineer portfolio - AI testing, SaaS testing, web and mobile QA, API validation, payment flows, security testing, Agile release ownership, and nearly 5 years of quality engineering experience. Built by Mrunal Patil.
 ```
 
 **Topics:**
-
 ```text
 manual-testing
 qa-portfolio
@@ -31,6 +29,8 @@ mobile-testing
 api-testing
 payment-testing
 security-testing
+agile-testing
+scrum
 github-pages
 ```
 
@@ -41,8 +41,8 @@ github-pages
 - Manual testing, AI QA, API, payments, Agile, and security skills mapping
 - Experience timeline for Brainstorm Force, NIC / DigiLocker, and Ninad Webtech
 - QA project cards for SureForms, AI app QA, WooCommerce, and OWASP testing
+- Agile & product collaboration evidence including sprint facilitation and Jira board ownership
 - Certifications, education, languages, and contact links
-- Custom QA evidence board SVG
 - Static HTML/CSS deployment through GitHub Pages
 
 ## Run Locally
@@ -54,7 +54,6 @@ python3 -m http.server 8000
 ```
 
 Then visit:
-
 ```text
 http://localhost:8000
 ```
@@ -66,16 +65,18 @@ Push repo to GitHub, then enable Pages from the `main` branch root.
 ```bash
 git branch -M main
 git add .
-git commit -m "init: manual QA portfolio"
-git remote add origin https://github.com/Mruunalll/Mrunal-Manual-QA-Portfolio.git
+git commit -m "update: QA portfolio content and resume sync"
+git remote add origin https://github.com/Mruunalll/Mrunal-QA-Portfolio.git
 git push -u origin main
 ```
 
 ## Resume Source
 
-The portfolio content is based on `Mrunal_Patil_QA_Engineer_Streamlined.docx`, including:
+The portfolio content is based on `Mrunal_Patil_QA_Engineer_v5.docx`, including:
 
-- 4.7 years of QA experience across SaaS, AI-powered products, and government platforms
+- Nearly 5 years of QA experience across SaaS, AI-powered products, and government platforms
 - 2000+ manual test cases across 10 SaaS and WordPress products
+- Sole QA ownership of SureForms for 1.5 years — full testing lifecycle end-to-end
 - AI testing across prompt adherence, hallucination detection, output consistency, adversarial prompts, fallback behavior, and workflow validation
+- Extended QA leadership role — facilitated Scrum ceremonies, managed Jira board, coordinated cross-functional team following PM departure
 - API, payment, mobile Android and iOS, localization, OWASP security, Agile, RCA, and release readiness experience
