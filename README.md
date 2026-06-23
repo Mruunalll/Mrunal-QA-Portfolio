@@ -42,6 +42,7 @@ github-pages
 - Experience timeline for Brainstorm Force, NIC / DigiLocker, and Ninad Webtech
 - QA project cards for SureForms, AI app QA, WooCommerce, and OWASP testing
 - Agile & product collaboration evidence including sprint facilitation and Jira board ownership
+- Skill cloud covering 60+ resume-backed QA keywords
 - Certifications, education, languages, and contact links
 - Static HTML/CSS deployment through GitHub Pages
 
@@ -79,4 +80,6 @@ The portfolio content is based on `Mrunal_Patil_QA_Engineer_v5.docx`, including:
 - Sole QA ownership of SureForms for 1.5 years — full testing lifecycle end-to-end
 - AI testing across prompt adherence, hallucination detection, output consistency, adversarial prompts, fallback behavior, and workflow validation
 - Extended QA leadership role — facilitated Scrum ceremonies, managed Jira board, coordinated cross-functional team following PM departure
-- API, payment, mobile Android and iOS, localization, OWASP security, Agile, RCA, and release readiness experience
+- Security testing across 7 government platforms serving 100M+ users — identified 15+ critical vulnerabilities including SQLi, XSS, and IDOR via OWASP Top 10-aligned testing
+- API, payment (Stripe, PayPal, webhooks), mobile Android and iOS, localization, RCA, and release readiness experience
+- Awards: Rising Star 2023 · Bug Detective of the Year — ZipWP 2024 · Zero-Defect Delivery — SureForms 2025
